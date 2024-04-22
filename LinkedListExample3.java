@@ -74,6 +74,42 @@ public class LinkedListExample3
 	
 	}
 }
+
+//OUTPUT:
+/*Initial list of elements in Linked list1:[567, Rukesh, 98.67, Kiran, Mani, 765, 32.33, Hemanth, Mahesh, 897.9]
+Total number of Elements in Linked list1:10
+After invoking remove(object) method:[567, Rukesh, Kiran, 765, 32.33, Hemanth, Mahesh, 897.9]
+After invoking remove(index) method:[567, Rukesh, 765, 32.33, Hemanth, 897.9]
+Total number of Elements in Linked list1:6
+Initial list of elements in Linked list2:[Sarath, 3.456, 145, Himalesh]
+Updated Linked List1:
+567
+Rukesh
+765
+32.33
+Hemanth
+897.9
+Sarath
+3.456
+145
+Himalesh
+Total number of Elements in Linked list1:10
+Tha Rahul elements there:true
+The Linkedlist1 contains All elements of the list2:true
+The  Third element of the Linked list1 is:765
+first element of the LinkedList is:567
+last element of the linkedlist is:Himalesh
+After invoking the removeFirst() method:[Rukesh, 765, 32.33, Hemanth, 897.9, Sarath, 3.456, 145, Himalesh]
+Affter invoking the removeLast() method:[Rukesh, 765, 32.33, Hemanth, 897.9, Sarath, 3.456, 145]
+After Updating the Linked list:[111, Rukesh, 765, 32.33, Manoj, 897.9, 89.09, Sarath, 3.456, 145, Manoj]
+Index of the Manoj in linked list by Using indexOf():4
+Index of the Manoj in linked list by Using lastIndexOf():10
+Aftre removing list2 elements from list1:[111, Rukesh, 765, 32.33, Manoj, 897.9, 89.09, Manoj]
+Total number of Elements in Linked list1:8
+After invoking the clear() metod:[]
+linked list1 is empty:true
+linked list2 is empty:false
+*/
 		
 		
 
