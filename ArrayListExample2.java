@@ -59,3 +59,35 @@ public class ArrayListExample2
 	     System.out.println("Index of the Apple element from Backward or lost to first is:"+list1.lastIndexOf(1));
 	}
 }
+//OUTPUT:
+/*
+Array list 1 elemnts are:[1, 2, 3, 4]
+Size of the Array list1:4
+Array list2 elemnts are:[5, 6, 7, 8]
+Size of the Array list2:4
+After adding tha list2 elements into list1 :
+1
+2
+3
+4
+5
+6
+7
+8
+Size of the Array list1:8
+The Array list2 elements are there in Array list1:true
+After removing an objects list1 elements are:
+[1, 3, 4, 5, 6, 8]
+Size of the Array list1:6
+The Apple elment is there(True/false):true
+The Banana elment is there(True/false):true
+The Array list2 elements are there in Array list1:false
+ after removing list2 elements from list1 elements:[1, 3, 4]
+Size of the Array list1:3
+after clearing all elements in Array list2:[]
+list2 is empty?:true
+After Apple element setted into 1 specified position:[1, 3, 4]
+Array list is:[1, 1, 4]
+Index of the Apple element is:0
+Index of the Apple element from Backward or lost to first is:1
+*/
