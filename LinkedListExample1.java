@@ -1,5 +1,5 @@
 import java.util.*;
-public class LinkedListExample1
+public class LinkedListExample2
 {
 	public static void main(String[] args)
 	{
@@ -13,13 +13,12 @@ public class LinkedListExample1
 		list1.add(77);
 		list1.add(88);
 		list1.add(99);
-		list1.add(00);
 		System.out.println("Initial list of elements in Linked list1:"+list1);
 		System.out.println("Total number of Elements in Linked list1:"+list1.size());
 
-		list1.remove(00);
+		list1.remove(0);
 		
-		System.out.println("After invoking remove(object) method:"+list1);
+		//System.out.println("After invoking remove(object) method:"+list1);
 		list1.remove(2);
 		list1.remove(5);
 		System.out.println("After invoking remove(index) method:"+list1);
@@ -74,6 +73,44 @@ public class LinkedListExample1
 	
 	}
 }
+
+//OUTPUT:
+/*
+Initial list of elements in Linked list1:[11, 22, 33, 54, 55, 66, 77, 88, 99, 0]
+Total number of Elements in Linked list1:10
+After invoking remove(object) method:[22, 33, 54, 55, 66, 77, 88, 99, 0]
+After invoking remove(index) method:[22, 33, 55, 66, 77, 99, 0]
+Total number of Elements in Linked list1:7
+Initial list of elements in Linked list2:[111, 222, 333, 444]
+Updated Linked List1:
+22
+33
+55
+66
+77
+99
+111
+222
+333
+444
+Total number of Elements in Linked list1:11
+Tha Rahul elements there:true
+The Linkedlist1 contains All elements of the list2:true
+The  Third element of the Linked list1 is:55
+first element of the LinkedList is:22
+last element of the linkedlist is:444
+After invoking the removeFirst() method:[33, 55, 66, 77, 99, 0, 111, 222, 333, 444]
+Affter invoking the removeLast() method:[33, 55, 66, 77, 99, 0, 111, 222, 333]
+After Updating the Linked list:[300, 33, 55, 66, 150, 99, 200, 0, 111, 222, 333, 150]
+Index of the Manoj in linked list by Using indexOf():4
+Index of the Manoj in linked list by Using lastIndexOf():11
+Aftre removing list2 elements from list1:[300, 33, 55, 66, 150, 99, 200, 0, 150]
+Total number of Elements in Linked list1:9
+After invoking the clear() metod:[]
+linked list1 is empty:true
+linked list2 is empty:false
+*/	
+	
 		
 		
 
