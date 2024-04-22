@@ -11,7 +11,7 @@ class Generic<T>
 		return var;
 	}
 }
-class TestGenericClass
+class GenericClass
 {
 	public static void main(String[] args)
 	{
