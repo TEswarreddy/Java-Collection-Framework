@@ -40,5 +40,21 @@ public class StackExample
 	}
 }
 
+//OUTPUT:
+/*
+Top element of the Stack is:23
+The position of the 23 is :1
+The position of the 99 is:-1
+the popped elemnt is:23
+the popped elemnt is:84
+the popped elemnt is:90
+the popped elemnt is:1
+The stock is empty:false
+the popped elemnt is:23
+the popped elemnt is:65
+the popped elemnt is:45
+The stock is empty:true
+*/
+
 		
 		
