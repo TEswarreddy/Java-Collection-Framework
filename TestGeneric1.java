@@ -1,4 +1,5 @@
-class Generic1<T>
+//Before going to the collection frame work we must understand about Generics and Implementation
+class Generic<T>
 {
 	T var;
 	Generic1(T var)
@@ -10,7 +11,7 @@ class Generic1<T>
 		return var;
 	}
 }
-class TestGeneric1
+class TestGenericClass
 {
 	public static void main(String[] args)
 	{
