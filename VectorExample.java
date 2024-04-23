@@ -19,11 +19,11 @@ public class ArrayListExample2
 		v2.add(6);
 		v2.add(7);
 		v2.add(8);
-		System.out.println("ve2 elemnts are:"+list2);
+		System.out.println("ve2 elemnts are:"+v2);
 		
-		System.out.println("Size of the Array list2:"+list2.size());
+		System.out.println("Size of the v2 or total elements in the v2 is:"+v2.size());
 
-		list1.addAll(list2);
+		v1.addAll(v2);
 		System.out.println("After adding tha list2 elements into list1 :");
 		Iterator itr=list1.iterator();
 		while(itr.hasNext())
@@ -48,13 +48,13 @@ public class ArrayListExample2
 		System.out.println("Size of the Array list1:"+list1.size());
 		
 	    list2.clear();
-		System.out.println("after clearing all elements in Array list2:"+list2);
+		System.out.println("after clearing all elements in vector v1 list2:"+list2);
 	    System.out.println("list2 is empty?:"+list2.isEmpty());
 	    
 	    list1.set(0,1);
-	    System .out.println("After Apple element setted into 1 specified position:"+list1);
+	    System .out.println("After 1 element setted into 0 specified position:"+list1);
 	    list1.set(1,1);
-	    System.out.println("Array list is:"+list1);
+	    System.out.println("vector v1 is:"+list1);
 	    System.out.println("Index of the 1 element is:"+list1.indexOf(1));
 	     System.out.println("Index of the 1 element from Backward or lost to first is:"+list1.lastIndexOf(1));
 	}
