@@ -59,8 +59,8 @@ public class LinkedListExample2
 		list1.addLast(150);
 		System.out.println("After Updating the Linked list:"+list1);
 
-		System.out.println("Index of the Manoj in linked list by Using indexOf():"+list1.indexOf(150));
-		System.out.println("Index of the Manoj in linked list by Using lastIndexOf():"+list1.lastIndexOf(150));
+		System.out.println("Index of the 150 in linked list by Using indexOf():"+list1.indexOf(150));
+		System.out.println("Index of the 150 in linked list by Using lastIndexOf():"+list1.lastIndexOf(150));
 
 		list1.removeAll(list2);
 		System.out.println("Aftre removing list2 elements from list1:"+list1);
@@ -102,8 +102,8 @@ last element of the linkedlist is:444
 After invoking the removeFirst() method:[33, 55, 66, 77, 99, 0, 111, 222, 333, 444]
 Affter invoking the removeLast() method:[33, 55, 66, 77, 99, 0, 111, 222, 333]
 After Updating the Linked list:[300, 33, 55, 66, 150, 99, 200, 0, 111, 222, 333, 150]
-Index of the Manoj in linked list by Using indexOf():4
-Index of the Manoj in linked list by Using lastIndexOf():11
+Index of the 150 in linked list by Using indexOf():4
+Index of the 159 in linked list by Using lastIndexOf():11
 Aftre removing list2 elements from list1:[300, 33, 55, 66, 150, 99, 200, 0, 150]
 Total number of Elements in Linked list1:9
 After invoking the clear() metod:[]
