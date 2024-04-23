@@ -24,20 +24,20 @@ public class ArrayListExample2
 		System.out.println("Size of the v2 or total elements in the v2 is:"+v2.size());
 
 		v1.addAll(v2);
-		System.out.println("After adding tha list2 elements into list1 :");
-		Iterator itr=list1.iterator();
+		System.out.println("After adding tha v2 elements into v1 :");
+		Iterator itr=v1.iterator();
 		while(itr.hasNext())
 		{
 			System.out.println(itr.next());
 		}
-		System.out.println("Size of the Array list1:"+list1.size());
-		System.out.println("The Array list2 elements are there in Array list1:"+list1.containsAll(list2));
+		System.out.println("Size of the Vector or total no of elements in the :"+v1.size());
+		System.out.println("The vector v2 elements are there in vector v1:"+v1.containsAll(v1));
 		
 		list1.remove(1);
 		list1.remove(5);
-		System.out.println("After removing an objects list1 elements are:\n"+list1);
+		System.out.println("After removing an objects from v1 elements are:\n"+v1);
 	
-		System.out.println("Size of the Array list1:"+list1.size());
+		System.out.println("Size of the vector v1 or total elements on the vector v1 is:"+v1.size());
 		
 		System.out.println("The 1 elment is there(True/false):"+list1.contains(1));
 		System.out.println("The 3 elment is there(True/false):"+list1.contains(3));
