@@ -91,4 +91,5 @@ After 1 element setted into 1 specified position:[1, 3, 4]
 Array list is:[1, 1, 4]
 Index of the 1 element is:0
 Index of the 1 element from Backward or lost to first is:1
+
 */
