@@ -52,7 +52,7 @@ public class ArrayListExample2
 	    System.out.println("list2 is empty?:"+list2.isEmpty());
 	    
 	    list1.set(0,1);
-	    System .out.println("After Apple element setted into 1 specified position:"+list1);
+	    System .out.println("After 1 element setted into 1 specified position:"+list1);
 	    list1.set(1,1);
 	    System.out.println("Array list is:"+list1);
 	    System.out.println("Index of the 1 element is:"+list1.indexOf(1));
@@ -86,7 +86,7 @@ The Array list2 elements are there in Array list1:false
 Size of the Array list1:3
 after clearing all elements in Array list2:[]
 list2 is empty?:true
-After Apple element setted into 1 specified position:[1, 3, 4]
+After 1 element setted into 1 specified position:[1, 3, 4]
 Array list is:[1, 1, 4]
 Index of the 1 element is:0
 Index of the 1 element from Backward or lost to first is:1
