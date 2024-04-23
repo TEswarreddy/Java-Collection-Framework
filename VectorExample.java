@@ -39,11 +39,11 @@ public class ArrayListExample2
 	
 		System.out.println("Size of the vector v1 or total elements on the vector v1 is:"+v1.size());
 		
-		System.out.println("The 1 elment is there(True/false):"+list1.contains(1));
-		System.out.println("The 3 elment is there(True/false):"+list1.contains(3));
-		System.out.println("The Array list2 elements are there in Array list1:"+list1.containsAll(list2));
+		System.out.println("The 1 elment is there(True/false):"+v1.contains(1));
+		System.out.println("The 3 elment is there(True/false):"+v1.contains(3));
+		System.out.println("The  vector v2 elements are there in Array list1:"+v11.containsAll(v2));
 		
-		list1.removeAll(list2);
+		v1.removeAll(v2);
 		System.out.println(" after removing list2 elements from list1 elements:"+list1);
 		System.out.println("Size of the Array list1:"+list1.size());
 		
