@@ -39,8 +39,8 @@ public class ArrayListExample2
 	
 		System.out.println("Size of the Array list1:"+list1.size());
 		
-		System.out.println("The Apple elment is there(True/false):"+list1.contains(1));
-		System.out.println("The Banana elment is there(True/false):"+list1.contains(3));
+		System.out.println("The 1 elment is there(True/false):"+list1.contains(1));
+		System.out.println("The 3 elment is there(True/false):"+list1.contains(3));
 		System.out.println("The Array list2 elements are there in Array list1:"+list1.containsAll(list2));
 		
 		list1.removeAll(list2);
@@ -55,8 +55,8 @@ public class ArrayListExample2
 	    System .out.println("After Apple element setted into 1 specified position:"+list1);
 	    list1.set(1,1);
 	    System.out.println("Array list is:"+list1);
-	    System.out.println("Index of the Apple element is:"+list1.indexOf(1));
-	     System.out.println("Index of the Apple element from Backward or lost to first is:"+list1.lastIndexOf(1));
+	    System.out.println("Index of the 1 element is:"+list1.indexOf(1));
+	     System.out.println("Index of the 1 element from Backward or lost to first is:"+list1.lastIndexOf(1));
 	}
 }
 //OUTPUT:
@@ -79,8 +79,8 @@ The Array list2 elements are there in Array list1:true
 After removing an objects list1 elements are:
 [1, 3, 4, 5, 6, 8]
 Size of the Array list1:6
-The Apple elment is there(True/false):true
-The Banana elment is there(True/false):true
+The 1 elment is there(True/false):true
+The 3 elment is there(True/false):true
 The Array list2 elements are there in Array list1:false
  after removing list2 elements from list1 elements:[1, 3, 4]
 Size of the Array list1:3
@@ -88,6 +88,6 @@ after clearing all elements in Array list2:[]
 list2 is empty?:true
 After Apple element setted into 1 specified position:[1, 3, 4]
 Array list is:[1, 1, 4]
-Index of the Apple element is:0
-Index of the Apple element from Backward or lost to first is:1
+Index of the 1 element is:0
+Index of the 1 element from Backward or lost to first is:1
 */
