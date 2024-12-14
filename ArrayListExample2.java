@@ -91,3 +91,12 @@ Array list is:[1, 1, 4]
 Index of the 1 element is:0
 Index of the 1 element from Backward or lost to first is:1
 */
+
+
+//In is also possible access the each elemet in ArrayList by using "for loop".
+/* for(int i=0;i<arraylist1.size();i++)
+	{
+		int temp=arraylist1.get(i);
+		System.out.println(temp);
+	}
+*/
