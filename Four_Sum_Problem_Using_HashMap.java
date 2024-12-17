@@ -24,6 +24,7 @@ class Main
                     if(h.containsKey(x) && i!=h.get(x) && j!=h.get(x) && k!=h.get(x) )
                     {
                         System.out.printf(" indexes %d %d %d %d \n",i,j,k,h.get(x));
+                        break;
                     }
                 }
             }
