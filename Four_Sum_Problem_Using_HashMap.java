@@ -34,28 +34,20 @@ class Main
 
 /* 
 Output:
- indexes 1 2 5 0 
+indexes 1 2 5 0 
  indexes 1 3 4 0 
  indexes 1 4 3 0 
  indexes 1 5 2 0 
  indexes 2 0 5 1 
  indexes 2 1 5 0 
  indexes 2 5 0 1 
- indexes 2 5 1 0 
  indexes 3 0 4 1 
  indexes 3 1 4 0 
  indexes 3 4 0 1 
- indexes 3 4 1 0 
  indexes 4 0 1 3 
- indexes 4 0 3 1 
  indexes 4 1 0 3 
- indexes 4 1 3 0 
  indexes 4 3 0 1 
- indexes 4 3 1 0 
  indexes 5 0 1 2 
- indexes 5 0 2 1 
  indexes 5 1 0 2 
- indexes 5 1 2 0 
- indexes 5 2 0 1 
- indexes 5 2 1 0 
+ indexes 5 2 0  1  
 */
