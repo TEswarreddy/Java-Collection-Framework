@@ -52,6 +52,9 @@ class Main
 
         
         //Scanner sc=new Scanner(System.in);
+        //String sen=sc.nextLine();
+
+        
         String sen="SixplusnineminusThree";
         sen = sen.toLowerCase();
         //System.out.println(sen);
@@ -71,7 +74,7 @@ class Main
                     //System.out.println("From map1");
                     operands[n]=map1.get(word);
                     n++;
-                    break;
+                    i=j;
                     
                 }
                 else if(map3.containsKey(word))
@@ -79,7 +82,7 @@ class Main
                     //System.out.println("From map3");
                     operator[m]=map3.get(word);
                     m++;
-                    break;
+                    i=j;
                 }
             }
         }
