@@ -49,7 +49,9 @@ class Main
         map3.put("multiply","*");
         map3.put("division","/");
         map3.put("modulo","%");
+
         
+        //Scanner sc=new Scanner(System.in);
         String sen="SixplusnineminusThree";
         sen = sen.toLowerCase();
         //System.out.println(sen);
